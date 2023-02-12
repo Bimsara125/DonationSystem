@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Donation.Core.IServices;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace System.Donation.Services
+namespace Donation.Core.Data
 {
-    public class DonorService : IDonorService
+    public interface IUnitOfWork
     {
     }
 }

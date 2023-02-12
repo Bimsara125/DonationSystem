@@ -15,6 +15,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Donation.Core.Data\Donation.Core.Data.csproj" />
+    <ProjectReference Include="..\Donation.DataAccess.Dapper\Donation.DataAccess.Dapper.csproj" />
+    <ProjectReference Include="..\System\System.Donation.Core.csproj" />
   </ItemGroup>
 
 </Project>
