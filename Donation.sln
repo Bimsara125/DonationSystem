@@ -13,19 +13,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{B6E34738-0087-
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{0EB8F605-3317-4FE7-856A-6D1A67848289}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.Donation.Core", "System\System.Donation.Core.csproj", "{6F07E700-0C6D-4F8D-8BEF-D2F58C735234}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Donation.Core", "System\System.Donation.Core.csproj", "{6F07E700-0C6D-4F8D-8BEF-D2F58C735234}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.Donors.API", "System.Donors.API\System.Donors.API.csproj", "{9E3FF70F-2D0E-4C9E-8EB1-23F9F497836C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Donors.API", "System.Donors.API\System.Donors.API.csproj", "{9E3FF70F-2D0E-4C9E-8EB1-23F9F497836C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.Donation.Dapper", "System.Donation.Dapper\System.Donation.Dapper.csproj", "{667DA198-BF1C-4070-B7D2-1D545E2268C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Donation.Dapper", "System.Donation.Dapper\System.Donation.Dapper.csproj", "{667DA198-BF1C-4070-B7D2-1D545E2268C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Donation.Core.Data", "Donation.Core.Data\Donation.Core.Data.csproj", "{4E7CEF8B-0D3B-4ED1-9D60-DB0CA8AF39DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Donation.Core.Data", "Donation.Core.Data\Donation.Core.Data.csproj", "{4E7CEF8B-0D3B-4ED1-9D60-DB0CA8AF39DB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{E55F12DC-4B26-4E8E-A135-AA13DEA4CE0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.Donation.Services", "System.Donation.Services\System.Donation.Services.csproj", "{5AC6D558-33D4-4236-8B41-62A2ED8A388C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Donation.Services", "System.Donation.Services\System.Donation.Services.csproj", "{5AC6D558-33D4-4236-8B41-62A2ED8A388C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Donation.DataAccess.Dapper", "Donation.DataAccess.Dapper\Donation.DataAccess.Dapper.csproj", "{7E9F6F67-C164-41ED-9AF4-DE74A0C8AEFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Donation.DataAccess.Dapper", "Donation.DataAccess.Dapper\Donation.DataAccess.Dapper.csproj", "{7E9F6F67-C164-41ED-9AF4-DE74A0C8AEFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.Donation.Web", "System.Donation.Web\System.Donation.Web.csproj", "{D3106A18-2D85-4620-AAC2-789F504E7FFF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{7E9F6F67-C164-41ED-9AF4-DE74A0C8AEFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E9F6F67-C164-41ED-9AF4-DE74A0C8AEFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E9F6F67-C164-41ED-9AF4-DE74A0C8AEFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3106A18-2D85-4620-AAC2-789F504E7FFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3106A18-2D85-4620-AAC2-789F504E7FFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3106A18-2D85-4620-AAC2-789F504E7FFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3106A18-2D85-4620-AAC2-789F504E7FFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -70,6 +76,7 @@ Global
 		{E55F12DC-4B26-4E8E-A135-AA13DEA4CE0A} = {7ED95307-C16B-483F-A06F-23AB9F099FFF}
 		{5AC6D558-33D4-4236-8B41-62A2ED8A388C} = {7ED95307-C16B-483F-A06F-23AB9F099FFF}
 		{7E9F6F67-C164-41ED-9AF4-DE74A0C8AEFD} = {E55F12DC-4B26-4E8E-A135-AA13DEA4CE0A}
+		{D3106A18-2D85-4620-AAC2-789F504E7FFF} = {B6E34738-0087-4488-8C9B-71D8D0FD3280}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BB6B69C3-6170-4F7C-88C2-D99B0C4106D0}
